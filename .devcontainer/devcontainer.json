@@ -1,6 +1,8 @@
 {
 	"name": "Python project",
-	"image": "mrsono0/python",
+	// "image": "mrsono0/python",
+	"image": "kkgoso1/python_basic",
+
 	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
 	// your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
 	// In this case, "--host 0.0.0.0 --port 9000" needs to be passed into Flask to make this happen.
@@ -23,7 +25,8 @@
 	// "extensions": ["ms-python.python", "tabnine.tabnine-vscode"],
 	// Comment out to run as root instead.
 	"remoteUser": "vscode",
-	"workspaceFolder": "/home/vscode"
+	"workspaceFolder": "/home/vscode",
 	// docker toolbox for Mount
-	// "workspaceMount": "src=//c/Users/admin,dst=/workspaces/reactjs,type=bind,consistency=delegated"
+	"workspaceMount": "src=//c/Users/admin/ai/01.python/dev-container-python,dst=/workspaces/python,type=bind,consistency=delegated"
+	
 }
